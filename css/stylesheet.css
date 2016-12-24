@@ -69,26 +69,20 @@ header {
 
 }
 
+
 #leftLogoAndName {
     float: left;
     border: 2px solid #000000;
+    height: 98%;
 }
 
 .logo {
     height: 100px;
-    padding: 20px;
     float: left;
+    padding: 25px 10px;
 }
 
-#header h1 {
-    font-family: 'lunaregular', sans-serif;
-    font-size: 20px;
-    color: #f27024;
-    padding: 20px;
-    float: left;
-}
-
-#header a {
+#rightNavigation a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #f9dc5f;
@@ -97,12 +91,18 @@ header {
 
 #rightNavigation {
     float: right;
+    height: 98%;
     border: 2px solid #000000;
+}
+
+#rightNavigation ul {
+    padding: 53px 0; 
 }
 
 #rightNavigation li {
     display: inline;
-    padding: 5px;
+    font-size: 20px;
+    padding: 0 15px;
     text-decoration: none;
 }
 
