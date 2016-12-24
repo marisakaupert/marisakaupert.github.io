@@ -1,3 +1,33 @@
+/*IMPORTS*/
+@font-face {
+    font-family: 'lunaregular';
+    src: url('fonts/luna-webfont.woff2') format('woff2'),
+         url('fonts/luna-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*HEADER*/
+
+header, footer {
+    background-color: #911100; 
+}
+
+#header {
+    font-family: 'lunaregular', sans-serif;
+}
+
+
+
+
+/*BODY/MAIN PAGE*/
+
 body {
     background-color: #e6e7e8;
+}
+
+h1, h2, ul, p, form, button {
+    font-family: 'Open Sans', sans-serif;
 }
