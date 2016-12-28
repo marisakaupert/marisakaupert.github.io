@@ -79,9 +79,8 @@ header {
 
 .logo {
     height: auto;
-    max-width: 100%;
-    min-width: 40%;
-    padding: 20px;
+    min-width: 90%;
+/*    min-width: 40%;*/
 }
 
 
