@@ -53,7 +53,9 @@ table {
 }
 
 
-
+body {
+    height: 100%;
+}
 
 
 
@@ -62,52 +64,37 @@ table {
 
 header {
     background-color: #911100;
-    height: 138px;
     width: 100%;
     box-shadow: 0px 0px 3px 0px rgba(11,11,11,0.5);
-    position: fixed;
-
 }
 
 
 #leftLogoAndName {
-    float: left;
-    height: 98%;
-    min-width: 50%;
-}
-
-.logo {
-    height: auto;
-    width: 70%;
+    width: 350px;
+    padding: 20px;
+    display: inline-block;
 }
 
 
-#rightNavigation {
+nav {
     float: right;
-    height: 98%;
     margin-right: 5px;
 }
 
-#rightNavigation ul {
-    padding-top: 11%;
+.navigationText {
+    display: inline;
+    padding: 20px;
 }
 
-#rightNavigation a {
+.navigationLinks {
     font-family: 'Open Sans', sans-serif;
     color: #f9dc5f;
     font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-
+    text-decoration: none; 
 }
 
 
-#rightNavigation li {
-    display: inline-block;
-    font-size: 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-}
+
 
 
 /*BODY/MAIN PAGE-------------------------------------------*/
@@ -115,21 +102,39 @@ header {
 main {
     background-color: #e6e7e8;
     width: 100%;
-    position: fixed;
-    z-index: -1;
-    
+    height: 568px;
+    clear: both;
 }
 
+/*
 section {
-    clear: both;
-    display: inline-block;
+    display: inline;
 }
+*/
 
 #demoReelPage {
     height: 100%;
     width: 100%;
     background-color: #171818;
 }
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+
+#scriptsPage {
+    height: 100%;
+    width: 100%;
+}
+
+#scriptsPage div {
+    display: inline;
+    padding: 20px;
+}
+
+
 
 
 /*
@@ -143,21 +148,21 @@ h2, ul, p, form, button {
 footer {
     background-color: #911100;
     box-shadow: 0px 0px 3px 0px rgba(11,11,11,0.5);
-    height: 40px;
     width: 100%;
-    bottom: 0;
+    height: 38px;
     clear: both;
     position: fixed;
+    bottom: 0;
 }
 
 #footer {
     height: 100%;
-    width: 40%;
     float: right;
 }
 
 #footer ul {
     float: right;
+    padding: 10px;
 }
 
 #footer li {
@@ -169,7 +174,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     color: #ffb878;
     padding: 15px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .fa {
