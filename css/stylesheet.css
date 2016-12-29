@@ -129,11 +129,21 @@ iframe {
     width: 100%;
 }
 
-.scriptBox {
-    display: inline-block;
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+#horizontalListItems {
+    width: 100%;
+    list-style: none;
     padding: 20px;
 }
 
+.scripts {
+    display: inline-block;
+}
 
 
 
