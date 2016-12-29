@@ -102,7 +102,7 @@ nav {
 main {
     background-color: #e6e7e8;
     width: 100%;
-    height: 555px;
+    height: 557px;
     clear: both;
 }
 
@@ -115,7 +115,7 @@ section {
 #demoReelPage {
     height: 100%;
     width: 100%;
-    background-color: #171818;
+    background-color: rgba(0,0,0,0.9);
 }
 
 iframe {
@@ -129,8 +129,8 @@ iframe {
     width: 100%;
 }
 
-#scriptsPage div {
-    display: inline;
+.scriptBox {
+    display: inline-block;
     padding: 20px;
 }
 
@@ -174,7 +174,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     color: #ffb878;
     padding: 15px;
-    font-size: 23px;
+    font-size: 21px;
 }
 
 .fa {
