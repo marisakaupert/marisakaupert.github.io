@@ -70,13 +70,14 @@ header {
 
 
 #leftLogoAndName {
-    width: 350px;
+    min-width: 350px;
     padding: 20px;
     display: inline-block;
 }
 
 
 nav {
+    display: none;
     float: right;
     margin-right: 5px;
 }
@@ -104,6 +105,8 @@ main {
     width: 100%;
     height: 557px;
     clear: both;
+    position: fixed;
+    z-index: -1;
 }
 
 section, button {
@@ -112,8 +115,7 @@ section, button {
 }
 
 #demoReelPage {
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
     background-color: rgba(0,0,0,0.9);
 }
 
@@ -169,6 +171,36 @@ iframe {
     outline: none;
     float: right;
     margin-right: 60px;
+}
+
+#leftImages {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.mayanSun {
+    width: 63%;
+    margin-top: -7%;
+    margin-left: 3px;
+}
+
+.penguin {
+    width: 20%;
+    bottom: 0;
+    position: relative;
+}
+
+#rightContent {
+    height: 100%;
+    width: 50%;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+    resize: none;
+    text-align: left;
 }
 
 
