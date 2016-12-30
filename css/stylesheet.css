@@ -106,11 +106,10 @@ main {
     clear: both;
 }
 
-/*
 section {
     display: inline;
+    font-family: 'Open Sans', sans-serif;
 }
-*/
 
 #demoReelPage {
     height: 100%;
@@ -141,8 +140,21 @@ iframe {
     padding: 20px;
 }
 
-.scripts {
+.scripts, .designs {
     display: inline-block;
+    text-align: center;
+    padding: 40px;
+}
+
+.scripts h1 {
+    color: rgba(145, 16, 0, 1);
+    font-weight: 700;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.scripts h2 {
+    font-size: 18px;
 }
 
 
