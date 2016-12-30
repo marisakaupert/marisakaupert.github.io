@@ -147,8 +147,6 @@ body {
 
 /*HEADER-----------------------------------------------*/
 
-@media screen and (min-width: 830px) {}
-
 header {
     background-color: #911100;
     width: 100%;
@@ -156,26 +154,55 @@ header {
 }
 
 #leftLogoAndName {
-    min-width: 350px;
+    display: block;
+    margin: 0 auto;
+    width: 350px;
     padding: 20px;
-    display: inline-block;
+}
+
+@media (min-width: 500px) {
+    #leftLogoAndName {
+        min-width: 350px;
+        padding: 20px;
+        display: inline-block;
+    }
 }
 
 nav {
-    float: right;
-    margin-right: 5px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*
+@media (min-width: 500px) {
+    nav {
+        float: right;
+        margin-right: 5px;
+    }
+}
+*/
+ul {
+    text-align: center;
 }
 
 .navigationText {
     display: inline;
-    padding: 20px;
 }
 
 .navigationLinks {
     font-family: 'Open Sans', sans-serif;
     color: #f9dc5f;
     font-weight: 700;
+    font-size: 16px;
     text-decoration: none;
+}
+
+@media (min-width: 500px) {
+    .navigationLinks {
+        font-size: 20px;
+    }
 }
 
 
