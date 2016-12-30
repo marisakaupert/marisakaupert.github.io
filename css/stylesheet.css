@@ -106,7 +106,7 @@ main {
     clear: both;
 }
 
-section {
+section, button {
     display: inline;
     font-family: 'Open Sans', sans-serif;
 }
@@ -123,7 +123,7 @@ iframe {
 }
 
 
-#scriptsPage {
+#scriptsPage, #designsPage {
     height: 100%;
     width: 100%;
 }
@@ -132,6 +132,7 @@ iframe {
 .table {
     display: table;
     margin: 0 auto;
+    padding-top: 15px;
 }
 
 #horizontalListItems {
@@ -146,23 +147,29 @@ iframe {
     padding: 40px;
 }
 
-.scripts h1 {
+.scripts h1, .designs h1 {
     color: rgba(145, 16, 0, 1);
     font-weight: 700;
     padding: 8px;
     font-size: 20px;
 }
 
-.scripts h2 {
+.scripts h2, .designs h2 {
     font-size: 18px;
+    color: rgba(0,0,0,1);
 }
 
-
-
-/*
-h2, ul, p, form, button {
-    font-family: 'Open Sans', sans-serif;
-}*/
+.seeMore {
+    color: rgba(10, 61, 150, 1);
+    text-decoration: underline;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    float: right;
+    margin-right: 60px;
+}
 
 
 /*FOOTER-----------------------------------------------*/
