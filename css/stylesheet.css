@@ -217,13 +217,13 @@ ul {
 main {
     background-color: #e6e7e8;
     width: 100%;
-/*    height: 557px;*/
+    /*    height: 557px;*/
     clear: both;
 }
 
 section {
     position: relative;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 button {
@@ -340,16 +340,33 @@ form {
 }
 
 input[type=text] {
-    min-width: 97%;
-    padding: 3px 0;
+    min-width: 93%;
+    padding: 5px;
     margin: 5px 0;
+    border: 2px solid rgba(153, 153, 153, 1);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.4s;
+}
+
+input[type=text]:focus {
+    border: 2px solid rgba(0, 0, 0, 1);
 }
 
 textarea {
     resize: none;
     text-align: left;
-    width: 97%;
+    min-width: 93%;
     margin: 5px 0;
+    outline: none;
+    padding: 5px;
+    min-height: 130px;
+    border: 2px solid rgba(153, 153, 153, 1);
+    transition: 0.4s;
+}
+
+textarea:focus {
+    border: 2px solid rgba(0, 0, 0, 1);
 }
 
 
@@ -362,8 +379,6 @@ footer {
     display: block;
     width: 100%;
 }
-
-
 
 #footer ul {
     display: block;
