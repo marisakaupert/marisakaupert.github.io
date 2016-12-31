@@ -135,7 +135,7 @@ table {
 
 @font-face {
     font-family: 'lunaregular';
-    src: url('../fonts/luna-webfont.woff') format('woff'), url('../fonts/luna-webfont.woff2') format('woff2');
+    src: url('assets/fonts/luna-webfont.woff') format('woff'), url('../fonts/luna-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -226,9 +226,13 @@ section {
     font-family: 'Open Sans', sans-serif; 
 }
 
+button {
+    display: block;
+}
+
 #demoReelPage {
     width: 100%;
-    height: 100%;
+    height: 600px;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -285,7 +289,7 @@ iframe {
 }
 
 #contactPage {
-    height: 100%;
+    height: 600px;
     width: 100%;
 }
 
@@ -312,11 +316,40 @@ iframe {
     width: 50%;
     float: right;
     font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-align: right;
+    line-height: 1.5;
+}
+
+#rightContent h1 {
+    font-family: 'lunaregular', cursive;
+    color: rgba(242, 112, 35, 1);
+    padding-right: 10%;
+}
+
+#rightContent h2 {
+    color: rgba(145, 16, 0, 1);
+    padding-right: 10%;
+}
+
+form {
+    padding-top: 10px;
+    text-align: left;
+    color: rgba(145, 16, 0, 1);
+    padding-right: 10%;
+}
+
+input[type=text] {
+    min-width: 97%;
+    padding: 3px 0;
+    margin: 5px 0;
 }
 
 textarea {
     resize: none;
     text-align: left;
+    width: 97%;
+    margin: 5px 0;
 }
 
 
