@@ -135,11 +135,9 @@ table {
 
 @font-face {
     font-family: 'lunaregular';
-    src: url('../assets/fonts/luna-webfont.woff2') format('woff2'),
-         url('../assets/fonts/luna-webfont.woff') format('woff');
+    src: url('../assets/fonts/luna-webfont.woff2') format('woff2'), url('../assets/fonts/luna-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
@@ -217,7 +215,7 @@ ul {
 /*BODY/MAIN PAGE-------------------------------------------*/
 
 main {
-    background-color:rgba(230, 231, 232, 1);
+    background-color: rgba(230, 231, 232, 1);
     width: 100%;
     /*    height: 557px;*/
     clear: both;
@@ -291,13 +289,13 @@ iframe {
 }
 
 #contactPage {
-    height: 600px;
+    height: 595px;
     min-width: 100%;
     margin-top: 60px;
 }
 
 #leftImages {
-    height: 100%;
+    height: 90%;
     width: 50%;
     float: left;
 }
@@ -309,7 +307,7 @@ iframe {
 }
 
 #rightContent {
-    height: 100%;
+    height: 90%;
     width: 50%;
     float: right;
     font-family: 'Open Sans', sans-serif;
@@ -336,7 +334,8 @@ form {
     padding-right: 10%;
 }
 
-input[type=text], input[type=email] {
+input[type=text],
+input[type=email] {
     min-width: 93%;
     padding: 5px;
     margin: 5px 0;
@@ -346,7 +345,8 @@ input[type=text], input[type=email] {
     transition: 0.4s;
 }
 
-input[type=text]:focus, input[type=email]:focus {
+input[type=text]:focus,
+input[type=email]:focus {
     border: 2px solid rgba(0, 0, 0, 1);
 }
 
@@ -375,22 +375,22 @@ textarea:focus {
     font-size: 13px;
     float: right;
     margin-right: 10%;
-    margin-top: 5px;
-    
+    margin-top: 10px;
+    border-radius: 2px;
 }
 
 #penguinArea {
     clear: both;
-    min-width: 100%;
-    margin-bottom: -40px;
-    background-color:rgba(230, 231, 232, 1);
+    height: 10%;
+    display: block;
+    
 }
 
 .penguin {
-
-    display: block; width: 200px;
+    height: 140%;
+    margin-top: 5px;
+    margin-left: 10%;
 }
-
 
 
 
@@ -407,6 +407,8 @@ footer {
 #footer ul {
     display: block;
     padding: 20px;
+    z-index: 10;
+    position: relative;
 }
 
 #footer li {
