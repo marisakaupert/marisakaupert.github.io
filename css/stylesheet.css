@@ -135,8 +135,8 @@ table {
 
 @font-face {
     font-family: 'lunaregular';
-    src: url('luna-webfont.woff2') format('woff2'),
-         url('luna-webfont.woff') format('woff');
+    src: url('../assets/fonts/luna-webfont.woff2') format('woff2'),
+         url('../assets/fonts/luna-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -217,7 +217,7 @@ ul {
 /*BODY/MAIN PAGE-------------------------------------------*/
 
 main {
-    background-color: #e6e7e8;
+    background-color:rgba(230, 231, 232, 1);
     width: 100%;
     /*    height: 557px;*/
     clear: both;
@@ -233,7 +233,7 @@ button {
 }
 
 #demoReelPage {
-    width: 100%;
+    min-width: 100%;
     height: 600px;
     background-color: rgba(0, 0, 0, 0.9);
 }
@@ -249,8 +249,8 @@ iframe {
 }
 
 #scriptsPage {
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 .table {
@@ -292,7 +292,8 @@ iframe {
 
 #contactPage {
     height: 600px;
-    width: 100%;
+    min-width: 100%;
+    margin-top: 60px;
 }
 
 #leftImages {
@@ -302,14 +303,9 @@ iframe {
 }
 
 .mayanSun {
-    width: 90%;
-    margin-left: 5px;
-}
-
-.penguin {
-    width: 20%;
-    bottom: 0;
-    position: relative;
+    min-width: 270px;
+    margin-left: -30px;
+    margin-top: -28px;
 }
 
 #rightContent {
@@ -370,9 +366,33 @@ textarea:focus {
     border: 2px solid rgba(0, 0, 0, 1);
 }
 
-submitButton {
+.submitButton {
+    background-color: rgba(183, 63, 4, 1);
+    border: 2px solid rgba(145, 16, 0, 1);
+    padding: 7px 19px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(249, 220, 95, 1);
+    font-size: 13px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5px;
     
 }
+
+#penguinArea {
+    clear: both;
+    min-width: 100%;
+    margin-bottom: -40px;
+    background-color:rgba(230, 231, 232, 1);
+}
+
+.penguin {
+
+    display: block; width: 200px;
+}
+
+
+
 
 /*FOOTER-----------------------------------------------*/
 
