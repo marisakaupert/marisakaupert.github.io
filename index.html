@@ -19,8 +19,8 @@
         <nav>
             <ul>
                 <li class="navigationText"><a class="navigationLinks" href="#demoReelPage">Demo Reel</a></li>
-                <li class="navigationText"><a class="navigationLinks" href="#scriptsPage">Scripts</a></li>
-                <li class="navigationText"><a class="navigationLinks" href="#designPage">Design</a></li>
+<!--                <li class="navigationText"><a class="navigationLinks" href="#scriptsPage">Scripts</a></li>-->
+<!--                <li class="navigationText"><a class="navigationLinks" href="#designPage">Design</a></li>-->
                 <li class="navigationText"><a class="navigationLinks" href="#contactPage">Contact</a></li>
             </ul>
         </nav>
@@ -34,6 +34,7 @@
 
         <div class="dividingLine dividingBetweenSections"></div>
 
+<!--
         <section id="scriptsPage">
             <div class="table">
                 <ul id="horizontalListItems">
@@ -53,12 +54,13 @@
                         <h2>Python Inside Maya</h2>
                     </li>
                 </ul>
-                <!--                <button class="seeMore">See more...</button>-->
+                                <button class="seeMore">See more...</button>
             </div>
 
         </section>
 
         <div class="dividingLine dividingBetweenSections"></div>
+-->
 
         <section id="contactPage">
             <div id="leftImages">
@@ -74,14 +76,14 @@
                 <form>
                     Subject:
                     <br>
-                    <input type="text" name="subject" required>
+                    <input id="emailSubject" type="text">
                     <br>Email:
                     <br>
-                    <input type="email" name="usersEmail" required>
+                    <input id="usersEmail" type="email" >
                     <br>Message:
-                    <textarea name="message" required></textarea>
+                    <textarea id="message" required></textarea>
                 </form>
-                <button class="submitButton" type="button">Submit</button>
+                <button id="submitButton" class="submitButton" type="button">Submit</button>
             </div>
             <div id="penguinArea">
                 <img class="penguin" src="assets/images/penguin.svg" alt="Mayan penguin">
@@ -109,6 +111,6 @@
 </body>
 
 
-
+<script src="js/email.js"></script>
 
 </html>
