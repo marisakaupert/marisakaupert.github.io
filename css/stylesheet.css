@@ -315,13 +315,23 @@ iframe {
     width: 270px;
     margin-left: -30px;
     margin-top: -28px;
+            transform: rotate(-5deg);
+
 }
 
 @media (min-width: 700px) {
     .mayanSun {
         margin-top: -40px;
-        transform: rotate(-5deg);
         margin-left: 0;
+        width: 390px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .mayanSun {
+        width: 500px;
+        margin-top: -60px;
+        
     }
 }
 
