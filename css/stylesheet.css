@@ -318,7 +318,7 @@ iframe {
 }
 
 .mayanSun {
-/*
+    /*
     width: 270px;
     margin-left: -30px;
     margin-top: -28px;
@@ -357,17 +357,17 @@ iframe {
 
 #rightContent h1 {
     font-family: 'lunaregular', cursive;
-    color: rgba(242, 112, 35, 1);
+    color: rgba(178, 40, 40, 1);
 }
 
 #rightContent h2 {
-    color: rgba(10, 10, 10, 1);
+    color: rgba(60, 24, 84, 1);
 }
 
 form {
     padding-top: 10px;
     text-align: left;
-    color: rgba(10, 10, 10, 1);
+    color: rgba(60, 24, 84, 1);
     width: 100%;
 }
 
@@ -467,7 +467,6 @@ textarea:focus {
         margin-top: 0px;
     }
 }
-
 
 
 /*FOOTER-----------------------------------------------*/

@@ -1,0 +1,200 @@
+/*IMPORTS*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'lunaregular';
+    src: url('../assets/fonts/luna-webfont.woff2') format('woff2'), url('../assets/fonts/luna-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100%;
+    background-color: rgba(230, 231, 232, 1);
+
+}
+
+/*STYLESHEET-----------------------------------*/
+
+#thankYouPage {
+    display: block;
+    margin: 5% auto;
+    height: 70%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(153, 153, 153, 1);
+    line-height: 1.5;
+
+}
+
+.logo {
+    border: none;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'lunaregular', sans-serif;
+    color: rgba(242, 112, 35, 1);
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(145, 16, 0, 1);
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(145, 16, 0, 1);
+    font-weight: 300;
+    font-style: italic;
+    color: rgba(145, 16, 0, 1);
+
+}
