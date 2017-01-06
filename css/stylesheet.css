@@ -301,7 +301,13 @@ iframe {
 
 @media (min-width: 700px) {
     #contactPage {
-        margin-top: 0;
+        margin-top: 90px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #contactPage {
+        margin-top: 180px;
     }
 }
 
@@ -312,26 +318,29 @@ iframe {
 }
 
 .mayanSun {
+/*
     width: 270px;
     margin-left: -30px;
     margin-top: -28px;
-            transform: rotate(-5deg);
-
+*/
+    width: 119%;
+    margin-left: -6%;
+    margin-top: -3%;
 }
 
 @media (min-width: 700px) {
     .mayanSun {
-        margin-top: -40px;
-        margin-left: 0;
-        width: 390px;
+        margin-top: -15%;
+        width: 400px;
+        margin-left: -3%;
     }
 }
 
 @media (min-width: 1000px) {
     .mayanSun {
-        width: 500px;
-        margin-top: -60px;
-        
+        width: 540px;
+        margin-left: 5%;
+        margin-top: -20%;
     }
 }
 
@@ -352,17 +361,17 @@ iframe {
 }
 
 #rightContent h2 {
-    color: rgba(145, 16, 0, 1);
+    color: rgba(10, 10, 10, 1);
 }
 
 form {
     padding-top: 10px;
     text-align: left;
-    color: rgba(145, 16, 0, 1);
+    color: rgba(10, 10, 10, 1);
     width: 100%;
 }
 
-@media (min-width: 630px) {
+@media (min-width: 700px) {
     #rightContent h1 {
         font-size: 14px;
         margin-top: 25px;
@@ -375,8 +384,7 @@ form {
     }
 }
 
-
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
     #rightContent h1 {
         font-size: 16px;
         margin-top: 25px;
@@ -430,9 +438,9 @@ textarea:focus {
     font-family: 'Open Sans', sans-serif;
     color: rgba(249, 220, 95, 1);
     font-size: 13px;
-    float: right;
     margin-top: 10px;
     border-radius: 2px;
+    clear: both;
 }
 
 @media (min-width: 700px) {
@@ -452,6 +460,14 @@ textarea:focus {
     margin-top: 15px;
     margin-left: 10%;
 }
+
+@media (min-width: 700px) {
+    .penguin {
+        height: 160%;
+        margin-top: 0px;
+    }
+}
+
 
 
 /*FOOTER-----------------------------------------------*/
