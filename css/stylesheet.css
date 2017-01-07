@@ -294,13 +294,14 @@ iframe {
 }
 
 #contactPage {
-    height: 600px;
+    height: 550px;
     min-width: 100%;
     margin-top: 60px;
 }
 
 @media (min-width: 700px) {
     #contactPage {
+        height: 600px;
         margin-top: 90px;
     }
 }
@@ -318,11 +319,6 @@ iframe {
 }
 
 .mayanSun {
-    /*
-    width: 270px;
-    margin-left: -30px;
-    margin-top: -28px;
-*/
     width: 119%;
     margin-left: -6%;
     margin-top: -3%;
@@ -345,7 +341,7 @@ iframe {
 }
 
 #rightContent {
-    height: 90%;
+    height: 100%;
     width: 45%;
     float: left;
     font-family: 'Open Sans', sans-serif;
@@ -381,6 +377,7 @@ form {
     }
     form {
         font-size: 14px;
+        margin-bottom: 20px;
     }
 }
 
@@ -405,7 +402,22 @@ input[type=email] {
     border-radius: 2px;
     outline: none;
     transition: 0.4s;
-    min-width: 100%;
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    input[type=text],
+    input[type=email] {
+        min-width: 95%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1000px) {
+    input[type=text],
+    input[type=email] {
+        font-size: 17px;
+    }
 }
 
 input[type=text]:focus,
@@ -424,7 +436,7 @@ textarea {
     border: 2px solid rgba(153, 153, 153, 1);
     transition: 0.4s;
     border-radius: 2px;
-    min-width: 100%;
+    width: 100%;
 }
 
 textarea:focus {
@@ -445,28 +457,37 @@ textarea:focus {
 
 @media (min-width: 700px) {
     .submitButton {
-        font-size: 16px;
+        font-size: 17px;
     }
 }
 
 #penguinArea {
     clear: both;
-    height: 10%;
     display: block;
 }
 
 .penguin {
-    height: 120%;
-    margin-top: 15px;
-    margin-left: 10%;
+    width: 120px;
+    margin-bottom: -30px;
 }
 
 @media (min-width: 700px) {
     .penguin {
-        height: 160%;
-        margin-top: 0px;
+        width: 170px;
+        margin-bottom: -41px;
     }
 }
+
+@media (min-width: 1000px) {
+    #penguinArea {
+        margin-top: 10px;
+    }
+    .penguin {
+        width: 200px;
+        margin-bottom: -47px;
+    }
+}
+
 
 
 /*FOOTER-----------------------------------------------*/
