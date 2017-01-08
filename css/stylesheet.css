@@ -158,8 +158,14 @@ header {
 #leftLogoAndName {
     display: block;
     margin: 0 auto;
-    width: 350px;
+    width: 200px;
     padding: 20px;
+}
+
+@media (min-width: 400px) {
+    #leftLogoAndName {
+        width: 350px;
+    }
 }
 
 @media (min-width: 700px) {
@@ -404,7 +410,6 @@ input[type=email] {
     transition: 0.4s;
     width: 100%;
     color: rgba(0, 0, 0, 1);
-
 }
 
 input[type=text]:focus,
@@ -498,7 +503,6 @@ textarea:focus {
 }
 
 
-
 /*FOOTER-----------------------------------------------*/
 
 footer {
@@ -532,7 +536,13 @@ footer {
 #footer a {
     font-family: 'Open Sans', sans-serif;
     color: #ffb878;
-    font-size: 16px;
+    font-size: 13px;
+}
+
+@media (min-width: 400px) {
+    #footer a {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 600px) {
