@@ -162,12 +162,6 @@ header {
     padding: 20px;
 }
 
-@media (min-width: 400px) {
-    #leftLogoAndName {
-        width: 350px;
-    }
-}
-
 @media (min-width: 700px) {
     #leftLogoAndName {
         min-width: 350px;
@@ -408,7 +402,7 @@ input[type=email] {
     border-radius: 2px;
     outline: none;
     transition: 0.4s;
-    width: 100%;
+    width: 95%;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -428,7 +422,7 @@ textarea {
     border: 2px solid rgba(153, 153, 153, 1);
     transition: 0.4s;
     border-radius: 2px;
-    width: 100%;
+    width: 95%;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -536,13 +530,7 @@ footer {
 #footer a {
     font-family: 'Open Sans', sans-serif;
     color: #ffb878;
-    font-size: 12px;
-}
-
-@media (min-width: 400px) {
-    #footer a {
-        font-size: 16px;
-    }
+    font-size: 16px;
 }
 
 @media (min-width: 600px) {
