@@ -10,8 +10,3 @@ $(function() {
 	});
 });
 
-$(".penguin").animate({
-  "marginLeft": "500px"
-}, {
-  easing: "easein"
-});
