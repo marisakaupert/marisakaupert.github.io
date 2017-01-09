@@ -1,0 +1,276 @@
+main {
+    background-color: rgba(230, 231, 232, 1);
+    width: 100%;
+    /*    height: 557px;*/
+    clear: both;
+}
+
+section {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    display: block;
+}
+
+#demoReelPage {
+    min-width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.dividingBetweenSections {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#scriptsPage {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+#horizontalListItems {
+    width: 100%;
+    list-style: none;
+}
+
+.scripts {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.scripts h1 {
+    color: rgba(145, 16, 0, 1);
+    font-weight: 700;
+    padding: 8px;
+}
+
+.scripts h2 {
+    color: rgba(0, 0, 0, 1);
+}
+
+.seeMore {
+    color: rgba(10, 61, 150, 1);
+    text-decoration: underline;
+    background: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    float: right;
+    margin-right: 60px;
+}
+
+#contactPage {
+    height: 550px;
+    min-width: 100%;
+    margin-top: 60px;
+}
+
+@media (min-width: 700px) {
+    #contactPage {
+        height: 600px;
+        margin-top: 90px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #contactPage {
+        margin-top: 180px;
+    }
+}
+
+#leftImages {
+    height: 90%;
+    width: 50%;
+    float: left;
+}
+
+.mayanSun {
+    width: 119%;
+    margin-left: -6%;
+    margin-top: -3%;
+}
+
+@media (min-width: 700px) {
+    .mayanSun {
+        margin-top: -15%;
+        width: 400px;
+        margin-left: -3%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .mayanSun {
+        width: 540px;
+        margin-left: 5%;
+        margin-top: -20%;
+    }
+}
+
+#rightContent {
+    height: 100%;
+    width: 45%;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-align: right;
+    line-height: 1.5;
+    margin-right: 5%;
+}
+
+#rightContent h1 {
+    font-family: 'lunaregular', cursive;
+    color: rgba(183, 63, 4, 1);
+}
+
+#rightContent h2 {
+    color: rgba(60, 24, 84, 1);
+}
+
+form {
+    padding-top: 10px;
+    text-align: left;
+    color: rgba(60, 24, 84, 1);
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    #rightContent h1 {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    #rightContent h2 {
+        font-size: 14px;
+    }
+    form {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #rightContent h1 {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    #rightContent h2 {
+        font-size: 16px;
+    }
+    form {
+        font-size: 16px;
+    }
+}
+
+input[type=text],
+input[type=email] {
+    padding: 5px;
+    margin: 5px 0;
+    border: 2px solid rgba(153, 153, 153, 1);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.4s;
+    width: 95%;
+    color: rgba(0, 0, 0, 1);
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+
+textarea {
+    resize: none;
+    text-align: left;
+    margin: 5px 0;
+    outline: none;
+    padding: 5px;
+    display: block;
+    min-height: 130px;
+    border: 2px solid rgba(153, 153, 153, 1);
+    transition: 0.4s;
+    border-radius: 2px;
+    width: 95%;
+    color: rgba(0, 0, 0, 1);
+}
+
+textarea:focus {
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+
+@media (min-width: 700px) {
+    input[type=text],
+    input[type=email] {
+        min-width: 95%;
+        font-size: 15px;
+    }
+    textarea {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1000px) {
+    input[type=text],
+    input[type=email] {
+        font-size: 17px;
+    }
+    textarea {
+        font-size: 17px;
+    }
+}
+
+.submitButton {
+    background-color: rgba(183, 63, 4, 1);
+    border: 2px solid rgba(145, 16, 0, 1);
+    padding: 7px 19px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(249, 220, 95, 1);
+    font-size: 13px;
+    margin-top: 10px;
+    border-radius: 2px;
+    clear: both;
+}
+
+@media (min-width: 700px) {
+    .submitButton {
+        font-size: 17px;
+    }
+}
+
+#penguinArea {
+    clear: both;
+    display: block;
+}
+
+.penguin {
+    width: 120px;
+    margin-bottom: -30px;
+}
+
+@media (min-width: 700px) {
+    .penguin {
+        width: 170px;
+        margin-bottom: -41px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #penguinArea {
+        margin-top: 10px;
+    }
+    .penguin {
+        width: 200px;
+        margin-bottom: -47px;
+    }
+}

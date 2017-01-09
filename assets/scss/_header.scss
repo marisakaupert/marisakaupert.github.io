@@ -1,0 +1,68 @@
+header {
+    background-color: #911100;
+    width: 100%;
+    box-shadow: 0px 0px 3px 0px rgba(11, 11, 11, 0.5);
+    position: relative;
+    z-index: 100;
+}
+
+#leftLogoAndName {
+    display: block;
+    margin: 0 auto;
+    width: 270px;
+    padding: 20px;
+}
+
+@media (min-width: 700px) {
+    #leftLogoAndName {
+        min-width: 350px;
+        padding: 20px;
+        display: inline-block;
+    }
+}
+
+.dividingLine {
+    border-bottom: thick solid rgba(183, 63, 4, 1);
+    width: 90%;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+nav {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px 30px 20px;
+}
+
+@media (min-width: 700px) {
+    nav {
+        float: right;
+        margin: 26px 5px;
+    }
+    .line1 {
+        display: none;
+    }
+}
+
+ul {
+    text-align: center;
+}
+
+.navigationText {
+    display: inline;
+    padding: 0 10px;
+}
+
+.navigationLinks {
+    font-family: 'Open Sans', sans-serif;
+    color: #f9dc5f;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    .navigationLinks {
+        font-size: 20px;
+    }
+}
