@@ -246,6 +246,7 @@ textarea:focus {
     margin-bottom: -28px;
     margin-left: 5%;
     transform: rotate(-3deg);
+    animation: move 5.5s infinte;
 }
 
 @media (min-width: 700px) {
@@ -261,5 +262,93 @@ textarea:focus {
     }
     #penguinArea .penguin {
         margin-bottom: -39px;
+    }
+}
+
+@keyframes move {
+    0% {
+        margin-left: 5%;
+    }
+    49% {
+        transform: rotateY(0deg) rotate(-3deg);
+    }
+    50% {
+        margin-left: 70%;
+        transform: rotateY(180deg) rotate(-3deg);
+    }
+    100% {
+        margin-left: 5%;
+        transform: rotateY(180deg) rotate(-3deg);
+    }
+}
+
+#openEye {
+    opacity: 1;
+    animation: eyeOpening 5.5s infinite;
+}
+
+#closedEye {
+    opacity: 0;
+    animation: eyeClose 5.5s infinite;
+}
+
+#wing {
+    height: 100%;
+    transform: rotate(5deg);
+    transform-origin: top right;
+    animation: rotation 5.5s infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(5deg);
+    }
+    49% {
+        transform: rotate(80deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    99% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes eyeOpening {
+    0% {
+        opacity: 1;
+    }
+    1% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    51% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes eyeClose {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    51% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
