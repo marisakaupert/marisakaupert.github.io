@@ -15,7 +15,7 @@
     line-height: 1.5;
 }
 
-.logo {
+#thankYouPage .logo {
     border: none;
     display: block;
     margin: 0 auto;
@@ -23,7 +23,7 @@
     padding-top: 20px;
 }
 
-h1 {
+#thankYouPage h1 {
     font-family: 'lunaregular', sans-serif;
     color: rgba(242, 112, 35, 1);
     font-size: 32px;
@@ -31,7 +31,7 @@ h1 {
     padding-top: 40px;
 }
 
-h2 {
+#thankYouPage h2 {
     font-family: 'Open Sans', sans-serif;
     color: rgba(145, 16, 0, 1);
     text-align: center;
@@ -39,14 +39,14 @@ h2 {
     padding-top: 20px;
 }
 
-h3 {
+#thankYouPage h3 {
     text-align: center;
     padding-top: 20px;
     font-size: 20px;
     padding-bottom: 20px;
 }
 
-a {
+#thankYouPage a {
     font-family: 'Open Sans', sans-serif;
     color: rgba(145, 16, 0, 1);
     font-weight: 300;
@@ -54,7 +54,7 @@ a {
     color: rgba(145, 16, 0, 1);
 }
 
-.penguin {
+#thankYouPage .penguin {
     position: relative;
     width: 150px;
     padding-top: 50px;
@@ -63,7 +63,7 @@ a {
 }
 
 @media (min-width: 700px) {
-    .penguin {
+    #thankYouPage .penguin {
         width: 200px;
         margin-bottom: -46px;
         transform: rotate(-5deg);

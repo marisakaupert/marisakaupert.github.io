@@ -7,6 +7,12 @@ footer {
     line-height: 1.5;
 }
 
+@media (min-width: 700px) {
+    footer {
+        height: 70px;
+    }
+}
+
 #footer ul {
     display: block;
     padding: 20px;
@@ -29,7 +35,7 @@ footer {
 #footer a {
     font-family: 'Open Sans', sans-serif;
     color: #ffb878;
-    font-size: 16px;
+    font-size: 14.5px;
 }
 
 @media (min-width: 600px) {

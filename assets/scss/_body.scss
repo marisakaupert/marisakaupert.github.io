@@ -1,15 +1,6 @@
-@font-face {
-    font-family: 'lunaregular';
-    src: url('assets/fonts/luna-webfont.woff2') format('woff2'), url('assets/fonts/luna-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 main {
     background-color: rgba(230, 231, 232, 1);
     width: 100%;
-    /*    height: 557px;*/
-    clear: both;
 }
 
 section {
@@ -33,8 +24,7 @@ iframe {
 }
 
 .dividingBetweenSections {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin: 40px;
 }
 
 #scriptsPage {
@@ -82,19 +72,11 @@ iframe {
 #contactPage {
     height: 550px;
     min-width: 100%;
-    margin-top: 60px;
 }
 
 @media (min-width: 700px) {
     #contactPage {
         height: 600px;
-        margin-top: 90px;
-    }
-}
-
-@media (min-width: 1000px) {
-    #contactPage {
-        margin-top: 180px;
     }
 }
 
@@ -106,13 +88,11 @@ iframe {
 
 .mayanSun {
     width: 119%;
-    margin-left: -6%;
-    margin-top: -3%;
+    margin-left: -15%;
 }
 
 @media (min-width: 700px) {
     .mayanSun {
-        margin-top: -15%;
         width: 400px;
         margin-left: -3%;
     }
@@ -120,9 +100,8 @@ iframe {
 
 @media (min-width: 1000px) {
     .mayanSun {
-        width: 540px;
-        margin-left: 5%;
-        margin-top: -20%;
+        width: 450px;
+        margin-left: 10%;
     }
 }
 
@@ -131,8 +110,6 @@ iframe {
     width: 45%;
     float: left;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    text-align: right;
     line-height: 1.5;
     margin-right: 5%;
 }
@@ -140,10 +117,14 @@ iframe {
 #rightContent h1 {
     font-family: 'lunaregular', cursive;
     color: rgba(183, 63, 4, 1);
+    font-size: 13px;
+    text-align: right;
 }
 
 #rightContent h2 {
     color: rgba(60, 24, 84, 1);
+    font-size: 13px;
+    text-align: right;
 }
 
 form {
@@ -151,6 +132,7 @@ form {
     text-align: left;
     color: rgba(60, 24, 84, 1);
     width: 100%;
+    font-size: 13px;
 }
 
 @media (min-width: 700px) {
@@ -188,7 +170,7 @@ input[type=email] {
     border-radius: 2px;
     outline: none;
     transition: 0.4s;
-    width: 95%;
+    width: 100%;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -208,7 +190,7 @@ textarea {
     border: 2px solid rgba(153, 153, 153, 1);
     transition: 0.4s;
     border-radius: 2px;
-    width: 95%;
+    width: 100%;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -219,7 +201,6 @@ textarea:focus {
 @media (min-width: 700px) {
     input[type=text],
     input[type=email] {
-        min-width: 95%;
         font-size: 15px;
     }
     textarea {
@@ -260,13 +241,15 @@ textarea:focus {
     display: block;
 }
 
-.penguin {
+#penguinArea .penguin {
     width: 120px;
-    margin-bottom: -30px;
+    margin-bottom: -28px;
+    margin-left: 5%;
+    transform: rotate(-3deg);
 }
 
 @media (min-width: 700px) {
-    .penguin {
+    #penguinArea .penguin {
         width: 170px;
         margin-bottom: -41px;
     }
@@ -276,8 +259,7 @@ textarea:focus {
     #penguinArea {
         margin-top: 10px;
     }
-    .penguin {
-        width: 200px;
-        margin-bottom: -47px;
+    #penguinArea .penguin {
+        margin-bottom: -39px;
     }
 }
