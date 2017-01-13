@@ -219,15 +219,26 @@ textarea:focus {
 }
 
 .submitButton {
+    clear: both;
     background-color: rgba(183, 63, 4, 1);
     border: 2px solid rgba(145, 16, 0, 1);
-    padding: 7px 19px;
+    padding: 7px 35px;
     font-family: 'Open Sans', sans-serif;
     color: rgba(249, 220, 95, 1);
     font-size: 13px;
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 2px;
-    clear: both;
+    text-align: center;
+    min-width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.submitButton:hover {
+    border: 2px solid rgba(96, 16, 6, 1);
+    background-color: rgba(145, 16, 0, 1);
+    color: rgba(242, 112, 35, 1);
+    transition: border .3s, background-color .3s, color .3s;
 }
 
 @media (min-width: 700px) {
@@ -246,7 +257,7 @@ textarea:focus {
     margin-bottom: -28px;
     margin-left: 5%;
     transform: rotate(-3deg);
-    animation: move 5.5s infinte;
+    animation: move 5.5s infinite;
 }
 
 @media (min-width: 700px) {
@@ -270,15 +281,15 @@ textarea:focus {
         margin-left: 5%;
     }
     49% {
-        transform: rotateY(0deg) rotate(-3deg);
+        transform: rotateY(0deg) rotate(-5deg);
     }
     50% {
         margin-left: 70%;
-        transform: rotateY(180deg) rotate(-3deg);
+        transform: rotateY(180deg) rotate(-5deg);
     }
     100% {
         margin-left: 5%;
-        transform: rotateY(180deg) rotate(-3deg);
+        transform: rotateY(180deg) rotate(-5deg);
     }
 }
 
@@ -303,14 +314,20 @@ textarea:focus {
     0% {
         transform: rotate(5deg);
     }
+    2% {
+        transform: rotate(-35deg);
+    }
     49% {
-        transform: rotate(80deg);
+        transform: rotate(50deg);
     }
     50% {
         transform: rotate(5deg);
     }
+    52% {
+        transform: rotate(-35deg);
+    }
     99% {
-        transform: rotate(90deg);
+        transform: rotate(50deg);
     }
     100% {
         transform: rotate(5deg);

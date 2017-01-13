@@ -70,3 +70,8 @@ ul {
         font-size: 20px;
     }
 }
+
+.navigationLinks:hover {
+    color: rgba(255, 183, 120, 1);
+    transition: color 0.3s;
+}
