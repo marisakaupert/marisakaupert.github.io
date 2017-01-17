@@ -24,6 +24,9 @@ footer {
     #footer ul {
         float: right;
     }
+    .copyright {
+        float: left;
+    }
 }
 
 #footer li {
@@ -36,7 +39,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     color: #ffb878;
     font-size: 14.5px;
-    text-decoration: none;
+    text-decoration: none
 }
 
 @media (min-width: 600px) {

@@ -80,51 +80,26 @@ iframe {
     }
 }
 
-#leftImages {
-    height: 90%;
-    width: 50%;
-    float: left;
-}
-
-.mayanSun {
-    width: 119%;
-    margin-left: -15%;
-}
-
-@media (min-width: 700px) {
-    .mayanSun {
-        width: 400px;
-        margin-left: -3%;
-    }
-}
-
-@media (min-width: 1000px) {
-    .mayanSun {
-        width: 450px;
-        margin-left: 10%;
-    }
-}
-
 #rightContent {
     height: 100%;
-    width: 45%;
-    float: left;
+    width: 90%;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     margin-right: 5%;
+    margin-left: 5%;
 }
 
 #rightContent h1 {
     font-family: 'lunaregular', cursive;
     color: rgba(183, 63, 4, 1);
     font-size: 13px;
-    text-align: right;
+    text-align: center;
 }
 
 #rightContent h2 {
     color: rgba(60, 24, 84, 1);
     font-size: 13px;
-    text-align: right;
+    text-align: center;
 }
 
 form {
@@ -244,128 +219,5 @@ textarea:focus {
 @media (min-width: 700px) {
     .submitButton {
         font-size: 17px;
-    }
-}
-
-#penguinArea {
-    clear: both;
-    display: block;
-}
-
-#penguinArea .penguin {
-    width: 120px;
-    margin-bottom: -28px;
-    margin-left: 5%;
-    transform: rotate(-3deg);
-    animation: move 5.5s infinite;
-}
-
-@media (min-width: 700px) {
-    #penguinArea .penguin {
-        width: 170px;
-        margin-bottom: -41px;
-    }
-}
-
-@media (min-width: 1000px) {
-    #penguinArea {
-        margin-top: 10px;
-    }
-    #penguinArea .penguin {
-        margin-bottom: -39px;
-    }
-}
-
-@keyframes move {
-    0% {
-        margin-left: 5%;
-    }
-    49% {
-        transform: rotateY(0deg) rotate(-5deg);
-    }
-    50% {
-        margin-left: 70%;
-        transform: rotateY(180deg) rotate(-5deg);
-    }
-    100% {
-        margin-left: 5%;
-        transform: rotateY(180deg) rotate(-5deg);
-    }
-}
-
-#openEye {
-    opacity: 1;
-    animation: eyeOpening 5.5s infinite;
-}
-
-#closedEye {
-    opacity: 0;
-    animation: eyeClose 5.5s infinite;
-}
-
-#wing {
-    height: 100%;
-    transform: rotate(5deg);
-    transform-origin: top right;
-    animation: rotation 5.5s infinite;
-}
-
-@keyframes rotation {
-    0% {
-        transform: rotate(5deg);
-    }
-    2% {
-        transform: rotate(-35deg);
-    }
-    49% {
-        transform: rotate(50deg);
-    }
-    50% {
-        transform: rotate(5deg);
-    }
-    52% {
-        transform: rotate(-35deg);
-    }
-    99% {
-        transform: rotate(50deg);
-    }
-    100% {
-        transform: rotate(5deg);
-    }
-}
-
-@keyframes eyeOpening {
-    0% {
-        opacity: 1;
-    }
-    1% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    51% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes eyeClose {
-    0% {
-        opacity: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    51% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
     }
 }

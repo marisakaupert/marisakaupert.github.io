@@ -63,6 +63,7 @@ ul {
     font-weight: 700;
     font-size: 16px;
     text-decoration: none;
+    background-color: rgba(147, 14, 0, 1);
 }
 
 @media (min-width: 600px) {
@@ -72,6 +73,16 @@ ul {
 }
 
 .navigationLinks:hover {
-    color: rgba(255, 183, 120, 1);
-    transition: color 0.3s;
+//    color: rgba(255, 183, 120, 1);
+    animation: shake 0.3s infinite;
+//    transition: color 0.3s;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(20deg);
+    }
 }
