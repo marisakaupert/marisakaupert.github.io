@@ -13,10 +13,9 @@ button {
 }
 
 #demoReelPage {
-//    min-width: 100%;
+    min-width: 100%;
     height: 600px;
     background-color: rgba(0, 0, 0, 0.9);
-    overflow: hidden;
 }
 
 iframe {
@@ -99,7 +98,7 @@ iframe {
 }
 
 #rightContent h2 {
-    color: rgba(60, 24, 84, 1);
+    color: #0b0b0b;
     font-size: 13px;
     text-align: center;
 }
@@ -107,7 +106,7 @@ iframe {
 form {
     padding-top: 10px;
     text-align: left;
-    color: rgba(60, 24, 84, 1);
+    color: #0b0b0b;
     width: 100%;
     font-size: 13px;
 }

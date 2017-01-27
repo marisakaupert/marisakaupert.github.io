@@ -35,17 +35,18 @@ header {
 nav {
     display: block;
     margin: 0 auto;
-    padding: 30px 20px 30px 20px;
+    padding: 30px 20px;
 }
 
 @media (min-width: 700px) {
     nav {
         float: right;
-        margin: 26px 5px;
+        margin: 21px 5px;
     }
     .line1 {
         display: none;
     }
+
 }
 
 ul {
@@ -72,17 +73,8 @@ ul {
     }
 }
 
-.navigationLinks:hover {
-//    color: rgba(255, 183, 120, 1);
-    animation: shake 0.3s infinite;
-//    transition: color 0.3s;
+a:hover {
+    color: rgba(255, 183, 120, 1);
+    transition: color 0.3s;
 }
 
-@keyframes shake {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(20deg);
-    }
-}
