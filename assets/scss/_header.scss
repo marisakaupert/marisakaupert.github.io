@@ -17,7 +17,13 @@ header {
     padding: 20px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
+    #leftLogoAndName {
+        width: 310px;
+    }
+}
+
+@media (min-width: 800px) {
     #leftLogoAndName {
         min-width: 350px;
         padding: 20px;
@@ -38,7 +44,7 @@ nav {
     padding: 30px 20px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     nav {
         float: right;
         margin: 21px 5px;
