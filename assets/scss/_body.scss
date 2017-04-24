@@ -23,9 +23,9 @@ iframe {
 }
 
 .dividingBetweenSections {
-    margin: 40px;
+    margin: 5% 5%;
+    min-width: 90%;
 }
-
 
 #contactPage {
     height: 550px;
@@ -37,6 +37,34 @@ iframe {
     #contactPage {
         height: 600px;
     }
+}
+
+#designPage {
+    min-width: 100%;
+}
+
+@media (min-width: 900px) {
+    #designPage {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: beige;
+}
+
+.content h1 {
+    font-size: 20px;
+    color: #930F00;
+    margin: 10px 0;
+}
+
+.content img {
+    width: 80%;
+    border-radius: 4px;
 }
 
 #rightContent {
@@ -167,6 +195,7 @@ textarea:focus {
     margin-left: 35%;
     margin-right: 35%;
     -webkit-appearance: none;
+    cursor: pointer;
 }
 
 .submitButton:hover {
