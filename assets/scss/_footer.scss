@@ -7,12 +7,6 @@ footer {
     line-height: 1.5;
 }
 
-@media (min-width: 700px) {
-    footer {
-        height: 70px;
-    }
-}
-
 #footer ul {
     display: block;
     z-index: 10;
@@ -23,32 +17,17 @@ footer {
     padding: 20px;
 }
 
-@media (min-width: 700px) {
-    .links {
-        float: right;
-    }
-    .copyright {
-        float: left;
-    }
-}
-
 #footer li {
     display: inline;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 #footer a {
     font-family: 'Open Sans', sans-serif;
     color: #ffb878;
-    font-size: 14.5px;
+    font-size: 25px;
     text-decoration: none
-}
-
-@media (min-width: 600px) {
-    #footer a {
-        font-size: 20px;
-    }
 }
 
 #footer a:hover {
@@ -59,12 +38,6 @@ footer {
 .copyright {
     font-family: 'Open Sans', sans-serif;
     color: #ffb878;
-    font-size: 14.5px;
+    font-size: 16px;
     padding-bottom: 20px;
-}
-
-@media (min-width: 770px) {
-    .copyright {
-        padding: 24px 20px;
-    }
 }

@@ -28,32 +28,26 @@ iframe {
 }
 
 #contactPage {
-    height: 550px;
+    height: 600px;
     min-width: 100%;
     float: left;
 }
 
-@media (min-width: 700px) {
-    #contactPage {
-        height: 600px;
-    }
-}
 
 #designPage {
     min-width: 100%;
 }
 
-@media (min-width: 900px) {
-    #designPage {
-        display: flex;
-        flex-direction: row;
-    }
-}
+//@media (min-width: 900px) {
+//    #designPage {
+//        display: flex;
+//        flex-direction: row;
+//    }
+//}
 
 .content {
     text-align: center;
     margin-bottom: 30px;
-    background-color: beige;
 }
 
 .content h1 {
@@ -79,13 +73,13 @@ iframe {
 #rightContent h1 {
     font-family: 'lunaregular', cursive;
     color: rgba(183, 63, 4, 1);
-    font-size: 13px;
+    font-size: 20px;
     text-align: center;
 }
 
 #rightContent h2 {
     color: #0b0b0b;
-    font-size: 13px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -94,34 +88,7 @@ form {
     text-align: left;
     color: #0b0b0b;
     width: 100%;
-    font-size: 13px;
-}
-
-@media (min-width: 700px) {
-    #rightContent h1 {
-        font-size: 14px;
-        margin-top: 25px;
-    }
-    #rightContent h2 {
-        font-size: 14px;
-    }
-    form {
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-}
-
-@media (min-width: 1000px) {
-    #rightContent h1 {
-        font-size: 16px;
-        margin-top: 25px;
-    }
-    #rightContent h2 {
-        font-size: 16px;
-    }
-    form {
-        font-size: 16px;
-    }
+    font-size: 20px;
 }
 
 input[type=text],
@@ -134,6 +101,7 @@ input[type=email] {
     transition: 0.4s;
     width: 100%;
     color: rgba(0, 0, 0, 1);
+    font-size: 20px;
 }
 
 input[type=text]:focus,
@@ -154,30 +122,11 @@ textarea {
     border-radius: 2px;
     width: 100%;
     color: rgba(0, 0, 0, 1);
+    font-size: 20px;
 }
 
 textarea:focus {
     border: 2px solid rgba(0, 0, 0, 1);
-}
-
-@media (min-width: 700px) {
-    input[type=text],
-    input[type=email] {
-        font-size: 15px;
-    }
-    textarea {
-        font-size: 15px;
-    }
-}
-
-@media (min-width:1000px) {
-    input[type=text],
-    input[type=email] {
-        font-size: 17px;
-    }
-    textarea {
-        font-size: 17px;
-    }
 }
 
 .submitButton {
@@ -187,8 +136,8 @@ textarea:focus {
     padding: 7px 35px;
     font-family: 'Open Sans', sans-serif;
     color: rgba(249, 220, 95, 1);
-    font-size: 13px;
-    margin-top: 15px;
+    font-size: 20px;
+    margin-top: 25px;
     border-radius: 2px;
     text-align: center;
     min-width: 30%;
@@ -203,10 +152,4 @@ textarea:focus {
     background-color: rgba(145, 16, 0, 1);
     color: rgba(242, 112, 35, 1);
     transition: border .3s, background-color .3s, color .3s;
-}
-
-@media (min-width: 700px) {
-    .submitButton {
-        font-size: 17px;
-    }
 }
