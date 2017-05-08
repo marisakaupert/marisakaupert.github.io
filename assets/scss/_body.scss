@@ -53,7 +53,9 @@ iframe {
 .content h1 {
     font-size: 20px;
     color: #930F00;
-    margin: 10px 0;
+    margin: 10px 5%;
+    font-weight: 700;
+    width: 90%;
 }
 
 .content img {
@@ -61,7 +63,7 @@ iframe {
     border-radius: 4px;
 }
 
-#rightContent {
+#contactForm {
     height: 100%;
     width: 90%;
     font-family: 'Open Sans', sans-serif;
@@ -70,14 +72,14 @@ iframe {
     margin-left: 5%;
 }
 
-#rightContent h1 {
+#contactForm h1 {
     font-family: 'lunaregular', cursive;
     color: rgba(183, 63, 4, 1);
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
-#rightContent h2 {
+#contactForm h2 {
     color: #0b0b0b;
     font-size: 20px;
     text-align: center;
@@ -88,7 +90,7 @@ form {
     text-align: left;
     color: #0b0b0b;
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 input[type=text],
@@ -101,7 +103,7 @@ input[type=email] {
     transition: 0.4s;
     width: 100%;
     color: rgba(0, 0, 0, 1);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 input[type=text]:focus,
@@ -122,7 +124,7 @@ textarea {
     border-radius: 2px;
     width: 100%;
     color: rgba(0, 0, 0, 1);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 textarea:focus {
@@ -136,7 +138,7 @@ textarea:focus {
     padding: 7px 35px;
     font-family: 'Open Sans', sans-serif;
     color: rgba(249, 220, 95, 1);
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 25px;
     border-radius: 2px;
     text-align: center;
