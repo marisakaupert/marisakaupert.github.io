@@ -2,44 +2,39 @@ footer {
     background-color: #911100;
     box-shadow: 0px 0px 3px 0px rgba(11, 11, 11, 0.5);
     clear: both;
-    display: block;
     width: 100%;
-    line-height: 1.5;
-    text-align: center;
-}
-
-#footer ul {
-  display: flex;
-    z-index: 10;
-    position: relative;
+    line-height: 1;
 }
 
 .links {
-    padding: 20px 0px;
+    padding: 20px 5px;
+    text-align: center;
+    z-index: 10;
 }
 
 #footer li {
-  flex-direction: row;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 8px;
+    display: inline;
+
 }
 
 #footer a {
     font-family: 'Open Sans', sans-serif;
-    color: #ffb878;
-    font-size: 15px;
+    color: #f9dc5f;
+    font-size: 14px;
     text-decoration: none
 }
 
 #footer a:hover {
-    color: rgba(244, 112, 10, 1);
+    color: rgba(255, 183, 120, 1);
     transition: color .3s;
 }
 
 .copyright {
     font-family: 'Open Sans', sans-serif;
-    color: #ffb878;
+    color: #f9dc5f;
     font-size: 12px;
     padding-bottom: 20px;
-    margin: 0 auto;
+    text-align: center;
 }
