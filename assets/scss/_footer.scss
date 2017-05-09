@@ -5,28 +5,29 @@ footer {
     display: block;
     width: 100%;
     line-height: 1.5;
+    text-align: center;
 }
 
 #footer ul {
-    display: block;
+  display: flex;
     z-index: 10;
     position: relative;
 }
 
 .links {
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 #footer li {
-    display: inline;
+  flex-direction: row;
     text-decoration: none;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 #footer a {
     font-family: 'Open Sans', sans-serif;
     color: #ffb878;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none
 }
 
@@ -40,4 +41,5 @@ footer {
     color: #ffb878;
     font-size: 12px;
     padding-bottom: 20px;
+    margin: 0 auto;
 }

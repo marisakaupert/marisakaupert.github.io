@@ -1,8 +1,6 @@
-@font-face {
-    font-family: 'lunaregular';
-    src: url('../assets/fonts/luna-webfont.woff2') format('woff2'), url('../assets/fonts/luna-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+
+body {
+  background-color: rgba(230, 231, 232, 1);
 }
 
 #thankYouPage {
@@ -10,7 +8,7 @@
     margin: 5% auto;
     height: 70%;
     width: 70%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255,255,255,1);
     border: 2px solid rgba(153, 153, 153, 1);
     line-height: 1.5;
 }
@@ -19,14 +17,14 @@
     border: none;
     display: block;
     margin: 0 auto;
-    width: 25%;
+    width: 140px;
     padding-top: 20px;
 }
 
 #thankYouPage h1 {
-    font-family: 'lunaregular', sans-serif;
+    font-family: 'lunaregular', cursive;
     color: rgba(242, 112, 35, 1);
-    font-size: 32px;
+    font-size: 20px;
     text-align: center;
     padding-top: 40px;
 }
@@ -35,14 +33,14 @@
     font-family: 'Open Sans', sans-serif;
     color: rgba(145, 16, 0, 1);
     text-align: center;
-    font-size: 25px;
+    font-size: 17px;
     padding-top: 20px;
 }
 
 #thankYouPage h3 {
     text-align: center;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 20px;
 }
 
@@ -54,18 +52,20 @@
     color: rgba(145, 16, 0, 1);
 }
 
-#thankYouPage .penguin {
-    position: relative;
-    width: 150px;
-    padding-top: 50px;
-    margin-bottom: -37px;
-    transform: rotate(-5deg);
-}
-
 @media (min-width: 700px) {
-    #thankYouPage .penguin {
-        width: 200px;
-        margin-bottom: -46px;
-        transform: rotate(-5deg);
-    }
+  #thankYouPage .logo  {
+    width: 230px;
+  }
+
+  #thankYouPage h1 {
+    font-size: 30px;
+  }
+
+  #thankYouPage h2 {
+    font-size: 25px;
+  }
+
+  #thankYouPage h3 {
+    font-size: 20px;
+  }
 }

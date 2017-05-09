@@ -27,9 +27,8 @@ header {
 }
 
 nav {
-    display: block;
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 15px 20px;
 }
 
 ul {
@@ -37,20 +36,23 @@ ul {
 }
 
 .navigationText {
-    display: inline;
-    padding: 0px 10px;
+  display: inline-block;
+    padding: 10px 5px;
 }
 
 .navigationLinks {
     font-family: 'Open Sans', sans-serif;
     color: #f9dc5f;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
     background-color: rgba(147, 14, 0, 1);
 }
 
 @media (min-width: 500px) {
+  .navigationText {
+    padding: 10px 10px;
+  }
   .navigationLinks {
     font-size: 16px;
   }
