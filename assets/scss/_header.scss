@@ -47,6 +47,10 @@ ul {
     font-size: 14px;
     text-decoration: none;
     background-color: rgba(147, 14, 0, 1);
+    &:hover {
+      color: rgba(255, 183, 120, 1);
+      transition: color 0.3s;
+    }
 }
 
 @media (min-width: 500px) {
@@ -94,10 +98,4 @@ header {
   .navigationLinks {
     font-size: 17px;
   }
-}
-
-
-a:hover {
-    color: rgba(255, 183, 120, 1);
-    transition: color 0.3s;
 }
