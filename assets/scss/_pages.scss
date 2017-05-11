@@ -1,0 +1,115 @@
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  clear: both;
+  margin: 20px 10px;
+  color: #930F00;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.position {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  clear: both;
+  margin: 20px 10px;
+  color: #b73f04;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+#leftInformation {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 14px;
+
+  div,
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 20px;
+  }
+}
+
+#rightPictures {
+  margin: 0 10px;
+}
+
+video {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.arrows {
+  clear: both;
+  width: 100%;
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+.lastProject {
+  width: 100px;
+  float: left;
+  margin-left:  10px;
+}
+
+.nextProject {
+  width: 100px;
+  float: right;
+  margin-right: 10px;
+}
+
+@media (min-width: 700px) {
+  .lastProject, .nextProject {
+    width: 150px;
+  }
+}
+
+@media (min-width: 900px) {
+  .title {
+    font-size: 35px;
+    margin: 30px 10px;
+  }
+
+  .position {
+    font-size: 25px;
+    margin: 30px 10px;
+  }
+
+  #leftInformation {
+    text-align: left;
+    width: 34%;
+    float: left;
+    font-size: 15px;
+    margin-left: 3%;
+
+    div,
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin-top: 0;
+    }
+  }
+
+  #rightPictures {
+    width: 60%;
+    float: right;
+    margin: 0;
+    margin-right: 3%;
+  }
+
+  .lastProject, .nextProject {
+    width: 200px;
+  }
+}
