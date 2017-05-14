@@ -76,12 +76,28 @@ h4 {
 
 #rightPictures {
   margin: 0 10px;
-}
+  img {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  .planets {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  iframe {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
 
-img {
-  width: 100%;
-  margin-bottom: 10px;
-  border-radius: 4px;
+
 }
 
 .arrows {
@@ -102,11 +118,14 @@ img {
   margin-right: 10px;
 }
 
-.planets {
-  margin-left: 30%;
-  margin-right: 30%;
-  width: 40%;
+.bubbleShootVideo, .spotTheDifferenceVideo {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 10px;
 }
+
+
 @media (min-width: 700px) {
   .lastProject,
   .nextProject {
@@ -128,7 +147,7 @@ img {
     width: 34%;
     float: left;
     font-size: 16px;
-    margin-left: 3%;
+    margin-left: 4%;
 
     h1,
     h2,
@@ -142,7 +161,7 @@ img {
   #rightPictures {
     width: 60%;
     float: right;
-    margin: 0 3% 0 0;
+    margin: 0 2% 0 0;
   }
 
   .lastProject,
