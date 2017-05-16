@@ -71,7 +71,7 @@ iframe {
     transform: scale(1);
     transition: filter .3s, transform .3s;
     &:hover {
-      transform: scale(1.08);
+      transform: scale(0.95);
       filter: grayscale(100%);
       transition: all .3s;
     }
