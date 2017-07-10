@@ -9,15 +9,9 @@ header {
 #leftLogoAndName {
     display: block;
     margin: 0 auto;
-    width: 260px;
+    width: 230px;
     padding: 20px;
     cursor: pointer;
-}
-
-@media (min-width: 450px) {
-  #leftLogoAndName {
-    width: 450px;
-  }
 }
 
 .dividingLine {
@@ -71,12 +65,12 @@ ul {
 
 @media (min-width: 960px) {
 header {
-  height: 135px;
+  height: 172px;
 }
 
   #leftLogoAndName {
     float: left;
-    width: 359px;
+    width: 220px;
   }
 
   header .dividingLine {
@@ -85,18 +79,16 @@ header {
 
   nav {
     float: right;
-    margin: 33px 0px;
+    margin: 51px 0px;
   }
 
   .navigationLinks {
-    font-size: 14px;
+    font-size: 17px;
   }
 }
 
 @media (min-width: 1100px) {
-
-
   .navigationLinks {
-    font-size: 17px;
+    font-size: 20px;
   }
 }
