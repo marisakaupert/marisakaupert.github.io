@@ -33,7 +33,7 @@
   }
 }
 
-.software {
+.software, .laurels {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -45,6 +45,13 @@
   height: 70px;
   width: 70px;
   margin: 5px 5px;
+}
+
+.laurels img {
+  height: 120px;
+  margin: 5px 5px;
+  background-color: rgba(96, 16, 6, 1);
+  border-radius: 5%;
 }
 
 h4 {
@@ -75,25 +82,18 @@ h4 {
 }
 
 #rightPictures {
-  margin: 0 10px;
+  margin: 0 10px 30px 10px;
   img {
     width: 100%;
     margin-bottom: 10px;
     border-radius: 4px;
   }
-  .planets {
-    margin-left: 30%;
-    margin-right: 30%;
-    width: 40%;
-    margin-bottom: 10px;
-  }
-  video {
+  video, iframe {
     width: 100%;
     margin-bottom: 10px;
     border-radius: 4px;
     font-size: 20px;
   }
-
 
 }
 
@@ -101,16 +101,18 @@ h4 {
   clear: both;
   width: 100%;
   display: inline-block;
+  margin-bottom: 15px;
+  
 }
 
 .lastProject {
-  width: 100px;
+  width: 90px;
   float: left;
   margin-left: 10px;
 }
 
 .nextProject {
-  width: 100px;
+  width: 90px;
   float: right;
   margin-right: 10px;
 }
@@ -118,7 +120,8 @@ h4 {
 @media (min-width: 700px) {
   .lastProject,
   .nextProject {
-    width: 150px;
+    width: 120px;
+    margin: 0 30px;
   }
 }
 @media (min-width: 800px) {
@@ -153,12 +156,14 @@ h4 {
     margin: 0 3% 0 0;
   }
 
-  .lastProject,
-  .nextProject {
-    width: 200px;
+  .arrows {
+    margin-top: 100px;
+    margin-bottom: 25px;
   }
 
-  .arrows {
-    margin: 10px 0px;
+  .lastProject,
+  .nextProject {
+    width: 150px;
+    margin: 0 30px;
   }
 }
